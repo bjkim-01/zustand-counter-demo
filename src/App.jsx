@@ -11,7 +11,7 @@ function App() {
     <div>
       <h1>count:{count}</h1>
       <button onClick={increase}>increase</button>
-      <button onClick={increaseBy(10)}>10씩 증가 </button>
+      <button onClick={() => increaseBy(10)}>10씩 증가 </button>
       <CountBox />
     </div>
   )
