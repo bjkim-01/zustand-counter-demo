@@ -12,13 +12,13 @@ function App() {
       <h1>count:{count}</h1>
 
       <div>
-        <button onClick={increase}>increase</button>
-        <button onClick={() => increaseBy(10)}>10씩 증가 </button>
+        <button onClick={increase}>increase(+1)</button>
+        <button onClick={() => increaseBy(10)}>10씩 증가(+10)</button>
       </div>
 
       <div>
-        <button onClick={decrease}>decrease</button>
-        <button onClick={() => decreaseBy(10)}>10씩 감소 </button>
+        <button onClick={decrease}>decrease(-1)</button>
+        <button onClick={() => decreaseBy(10)}>10씩 감소(-10)</button>
       </div>
       
       <CountBox />
